@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Eleanor Wiesler</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  body {
+    font-family: "Times New Roman", Georgia, Serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px; /* Increase the padding to move the content down */
+  }
+  
+  .w3-col {
+    flex: 1;
+  }
+  
+  .w3-col img {
+    margin-top: 50px; /* Increase the margin to give more room to the image on the left */
+  }
+  
+  .w3-col.m6 {
+    padding-top: 50px; /* Increase the padding to move the text down */
+  }
+  
+  .w3-col.m6 h1 {
+    padding-top: 30px; /* Add padding to move the text "Hi, my name is Rob" further down */
+  }
+  
+  /* Adjust the width of the text container */
+  #Experience .w3-col {
+    flex: 0 0 55%;
+  }
+  
+  #Experience img {
+    flex: 0 0 40%; /* Reduce the width of the photo container to give more space to the text */
+  }
+  
+  #Experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #Experience .w3-col {
+    flex: 0 0 48%; /* Adjust the width of the text container */
+  }
+  
+  /* Style for active navigation link */
+  .w3-bar-item.active {
+    text-decoration: underline;
+  }
+  
+  /* Style for active section in navbar */
+  .w3-bar-item.active-section {
+    text-decoration: underline;
+  }
+  
+  /* Add class to header for "About" section */
+  header.w3-display-container.w3-content.w3-wide#About .w3-bar-item:nth-child(2) {
+    text-decoration: underline;
+  }
+  
+  /* Add class to sections for active section */
+  .w3-row:target {
+    padding-top: 120px; /* Adjust this value as needed */
+  }
+</style>
+  
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Eleanor Wiesler</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#About" class="w3-bar-item w3-button">About</a>
+      <a href="#Experience" class="w3-bar-item w3-button">Experience</a>
+      <a href="#Podcast" class="w3-bar-item w3-button">Podcast</a>
+      <a href="#Publication" class="w3-bar-item w3-button">Publications</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="About">
+  <div class="w3-row">
+    <div class="w3-col m6 w3-padding-large">
+      <img src="./images/updated-headshot.png" alt="Profile" width="650" height="650">
+    </div>
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Hi, I'm Eleanor Wiesler</h1><br>
+      <h5 class="w3-center"> A.B Candidate in Mathematics</h5> 
+      <h5>Harvard College 2025</h5>
+      <p class="w3-large">An aspiring physician-scientist interested in machine learning, big data for health, and journalism! </p>
+      <ul>
+        <li>Biostatistics, Epidemiology, and AI in Medicine </li>
+        <li>Climate Change x Health</li>
+        <li>LGBTQIA+ Health Issues</li>
+        <li>Gender Equity</li>
+      </ul>
+      
+    </div>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  
+  <!-- Experience Section -->
+  <div class="w3-row w3-padding-64" id="Experience">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Experience</h1><br>
+      <h4>University of Oxford Dept. of Population Health, Big Data Institute - Oxford, UK</h4>
+      <p class="w3-text-grey">Machine learning researcher studying large datasets in the UK Biobank and developing ML models for light sensor detection for study on outdoor environmental exposure with Doherty Group. </p><br>
+    
+      <h4> Harvard School of Engineering and Applied Sciences - Cambridge, MA </h4>
+      <p class="w3-text-grey">Climate research assistant working on studying relative humidity modeling with McColl Group. </p><br>
+    
+      <h4>Universidad Mayor, Center for Society and Health - Santiago, Chile</h4>
+      <p class="w3-text-grey"> Population health assistant researcher under Nicolas Montalva studying land inheritance in Coquimbo, Chile.  </p><br>
+    
+      <h4> Detect by 4Catalyzer </h4>
+      <p class="w3-text-grey"> Biotech tart-up researcher conducting clinical and molecular biology research during Covid-19 pandemic. </p><br>
+    
+      <h4> Yale University School of Medicine </h4>
+      <p class="w3-text-grey"> Research intern in an immunobiology lab studying the aryl hydrocarbon receptor. </p>    
+    </div>
+      	<img src = "./images/vertical-logos.png"  alt="Profile" width="400" height="700" >
+  </div>
+
+  <hr>
+  
+ <!-- Podcast Section -->
+  <div class="w3-container w3-padding-64" id="Podcast">
+    <h1>Podcast</h1><br>
+    <h2> The PRIDE+Health Podcast coming September 2023 </h2>
+    <img src = "./images/pride-health-podcast-cover.png"  alt="Profile" width="500" height="500">
+
+    </form>
+  </div>
+  
+
+  <!-- Publications Section -->
+  <div class="w3-container w3-padding-64" id="Publication">
+    <h1>Publications</h1><br>
+    <p> "River House Renewal Must Consider Rising Sea Level". The Harvard Crimson. 2022.</p>
+    <p> "Scientists Must Only Seek Truth". The Harvard Crimson. 2023.</p>
+    <p> "Vitamin B12 and folic acid alleviate symptoms of nutritional deficiency by antagonizing aryl hydrocarbon receptor". Proceedings of the National Academy of Sciences. 2020.</p>
+    <img src = "./images/publications.png"  alt="Profile" width="1000" height="150">
+
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Eleanor Wiesler © 2023</a></p>
+
+</footer>
+</body>
+</html>
